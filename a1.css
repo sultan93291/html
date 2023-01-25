@@ -1,0 +1,313 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+/* Header part starts */ 
+
+
+
+header{
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+}
+
+.logo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 10px;
+	padding-right: 70px;
+	color: #ff7200;
+	transition: 1s;
+	padding-left: 150px;
+
+
+}
+
+
+.logo:hover{
+	color: yellow;
+	
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 400px;
+}
+
+.navbar ul {
+	list-style: none;
+	text-decoration: none;
+
+}
+
+
+.navbar ul li {
+	background-color: #ff7200;
+	width: 170px;
+	border: 1px solid ;
+	height: 50px ;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	border-radius: 50px;
+
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+
+}
+
+
+.navbar ul li:hover{
+	background-color:yellow;
+	color: black;
+	transition: all ease-in 0.2s ;
+
+}
+
+.navbar ul ul  {
+	display: none;
+}
+
+.navbar ul li:hover > ul {
+	display: block;
+
+}
+
+.search{
+    width: 300px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+    
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+	
+
+}
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+/* Header part starts */
+
+/* form part starts */ 
+
+.form1{
+	background-color: tomato;
+	color: white;
+	text-align: left;
+	font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+	margin-left: 40px;
+	width: fit-content;
+	height: fit-content;
+	padding: 30px 80px;
+	margin-top: 30px;
+	border-radius: 50px;
+	box-shadow: 0px 4px 8px rgba(0,0 ,0 ,0.2 ) , 0px 6px 20px rgba(0,0 ,0 ,0.19);
+}
+
+.form1 input{
+	padding: 5px 50px ;
+	border-radius: 50px;
+	border-color: tomato;
+	border: 1px solid tomato;
+	
+}
+
+
+
+
+
+
+/*form part ends*/
+
+/* img part starts */
+
+.img1{
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	display:inline-block;
+	right: 40%;
+	left: 35%;
+	bottom: 45%;
+	margin: 0px auto;
+	border: 1px solid yellow;
+	border-radius: 50px;
+	transition: 1s  all ease-in;
+	transition-delay: 0.5s;
+
+	
+
+	
+	
+}
+
+
+.img1:hover{
+	transform: rotate(360deg);
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
+	bottom: 60%;
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* img part ends here */ 
+
+/* footer part starts */ 
+
+
+
+footer{
+
+	position: absolute;
+	bottom: 0px;
+	text-align:center;
+	background-color: rgb(29, 27, 27);
+	width: 100%;
+	color: white;
+	padding-top:50px;
+
+
+}
+
+.name h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+p {
+	padding: 20px;
+	width: 600px;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	font-size: 20px;
+	color:white;
+
+	
+	
+}
+
+
+.icon i {
+	font-size: 45px;
+	position: relative;
+	top:-10px;
+	padding: 10px;
+}
+
+.copy{
+	height: 50px;
+	width: 100%;
+	background-color:#ff7200;
+	line-height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
+
+.name h2:hover{
+	color: #ff7200;
+
+}
+.icon i {
+	transition: 2s ease-in ;
+	transition-delay: 0.5s;
+	
+}
+
+.icon i:first-child:hover {
+    color: #3b5998;
+}
+
+.icon i:nth-child(2):hover {
+	color:#00acee;
+}
+
+
+.icon i:nth-child(3):hover {
+	color: #0072b1;
+
+}
+
+.icon i:nth-child(4):hover {
+	color: #E4405F ;
+	
+	
+}

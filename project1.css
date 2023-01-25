@@ -1,0 +1,63 @@
+.a1{
+	font-size: 40px;
+	padding: 10px;
+	margin: 10px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	font-family: serif;
+
+}
+
+#a2{
+	font-size: 25px;
+	color: black;
+}
+
+.a3{
+	font-size: 20px;
+    color: black;
+	padding: 20px;
+	margin: 20px;
+	font-family: initial;
+}
+
+#a4{
+	font-size: 20px;
+	margin: 15px;
+	
+}
+
+#a5{
+
+	font-size: 20px;
+	margin: 10px;
+	color: black;
+
+}
+
+.a6{
+	font-size: 25px;
+	margin: 5px;
+
+}
+
+.a7{
+
+	font-size: 30px;
+	margin: 10px;
+	color: blueviolet;
+}
+
+#a8{
+
+	font-size: 30px;
+	margin: 4px;
+	color: black;
+}
+
+#a9{
+	width: 30%;
+	display: block;
+	margin: 0px auto;
+}

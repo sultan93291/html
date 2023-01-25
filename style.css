@@ -1,0 +1,41 @@
+h1{
+	font-size: 50px;
+}
+body{
+	background-color: skyblue;
+}
+h4{
+	font-size: 30px;
+	text-align: center;
+	font-style: !important;
+	font: bold;
+}
+.a1{
+	font-size: 20px;
+	font-family: serif;
+}
+
+#b2{
+	font-size: 20px;
+	font: bold;
+}
+.bs{
+	font-size: 30px;
+	text-align: center;
+}
+.c2{
+	width: 30%;
+	display: block;
+	margin: 0% auto;
+}
+pre{
+	font: 30px italic;
+}
+.fs{
+	font: 20px sans-serif  ;
+
+}
+.aa{
+	font-size: 25px;
+	text-decoration-color: gainsboro;
+}
