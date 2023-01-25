@@ -3,7 +3,7 @@ console.log(ac);
 
 var aa = 55;
 
-var ab = 56;
+var ab = 56;gi
 
 var ad = aa+ab;
 console.log(ad)
