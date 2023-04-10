@@ -50,3 +50,13 @@ hostname.innerHTML = `window hostname ${location.hostname}`;
 pathname.innerHTML = `window hostanem ${location.pathname}`;
 protocol.innerHTML = `window protocol ${location.protocol}`;
 port.innerHTML = `window prot ${location.port}`;
+
+// js window history
+
+function goForward() {
+  window.history.forward();
+}
+
+function goBackward() {
+  window.history.back();
+}
