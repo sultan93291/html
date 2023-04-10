@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --success-color: green;
+    --error-color: tomato;
+}
+
+.container{
+    width: 450px;
+    background-color: #fff;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 5px;
+    padding: 50px;
+    
+}
+
+h1{
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    color: tomato;
+    text-align: center;
+}
+
+.class-form {
+    padding:20px;
+    position: relative;
+}
+
+.class-form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+    text-align: start;
+    text-transform: capitalize;
+   
+}
+
+.class-form input {
+    border: 2px solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
+
+}
+
+.class-form input:focus{
+    border-color: #777;
+    outline: none;
+}
+
+.class-form.error input {
+    border-color: var(--error-color);
+}
+
+.class-form.success input {
+    border-color: var(--success-color);
+}
+
+.class-form.success{
+    border-color: var(--success-color) ;
+}
+
+.class-form.error{
+    border-color: var(--error-color);
+}
+
+.class-form small {
+    position: absolute;
+    bottom: 0px;
+    text-align: justify;
+    color: var(--error-color);
+    visibility: hidden;
+  
+}
+
+.class-form.class-form.error small {
+    visibility: visible;
+}
+
+#btn {
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+
+#btn:focus {
+    outline: none;
+}
+
+.container h2 {
+    padding-top: 25px;
+    text-align: center;
+    
+} 

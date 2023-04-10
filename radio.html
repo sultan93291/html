@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shourtcourt icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png">
+    <title>Radio Button </title>
+</head>
+<body>
+
+
+   <!--
+
+    
+    <p> Please Select your Size:  </p>
+
+    
+
+    <div class="group">
+
+    </div>
+
+    <p class="output"></p>
+
+    
+    <input type="text" id="int"  >
+
+    <h1 id="out1"></h1> -->
+
+
+    <!--Check Box  dom -->
+    <!--
+
+    <p> Select Your Favourite Colors: </p>
+
+    <label for="">
+        <input type="checkbox" name="color" value="Black">
+        Black
+    </label>
+
+    <label for="">
+        <input type="checkbox" name="color" value="Green">
+        Green
+    </label>
+
+    <label for="">
+        <input type="checkbox" name="color" value="Red">
+        Red
+    </label>
+
+    <label for="Yellow">
+        <input type="checkbox" name="color" value="Yellow">
+        Yellow
+    </label>
+
+    </br>
+
+    </br>
+
+    <button id="bnt" > Submit Your Selected Colors </button>
+
+    <button id="time"> time: </button>
+
+    <h1 id="timeout"></h1>-->
+
+
+    <!-- js dom web form -->
+
+    <!--
+
+    
+
+    <p> Select  Your Programing Language : </p>
+
+    <form id="cotainer">
+
+
+    <select id="lang" multiple> 
+
+        <option value="1">Python</option>
+
+        <option value="2">Php</option>
+
+        <option value="3">Java </option>
+
+        <option value="4"> C++ </option>
+            
+    </select>
+
+    </br>
+
+    </br>
+
+    <button id="sub">Submit Your Programing Language</button>
+    
+    </form>   -->
+
+<!-- js dom dynamically add or remove option-->
+
+<div id="container">
+
+    <form action="">
+
+        <label for="framework"> Select Your Language : </label>
+
+        </br>
+
+        <input type="text" id="framework" placeholder="Enter Your Language:">
+         
+    </br>
+    </br>
+
+    <button id="add">Add</button>
+
+    </br>
+
+   <label for="select"> Select Which Language You want to delete </label>
+
+   </br>
+
+
+   <select id="select" name="select" multiple>
+
+   </select>
+
+
+   </br>
+
+   </br>
+
+   <button id="rmvbtn">Remove Selected </button>
+
+
+    </form>
+
+
+</div>
+
+<style> 
+
+select{
+    width: 400px;
+    height: auto;
+}
+
+#container{
+    height: 400px;
+    width: 430px;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+form{
+    padding: 20px 10px;
+    
+}  
+
+
+
+</style>
+
+</br>
+</br>
+
+
+<!-- remove items using select elements -->
+
+<label for="Alphabet">Alphabet</label>
+
+
+<select name="" id="Alphabet">
+
+    <option value="a">a</option>
+    <option value="b">b</option>
+    <option value="b">c</option>
+    
+
+
+</select>
+
+<button id="rm">Remove Alphabet</button>
+
+</br>
+
+<!--Another drill of removing option using select options remove methods-->
+
+</br>
+
+<main>
+
+    <label for="frame"></label>
+
+    <select  id="frame">
+
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++.js</option>
+        <option value="PhP">PhP.js</option>
+
+    </select>
+
+    <p>Click The button And to remove a item from the list option  </p>
+
+    <button id="rv1">Remove</button>
+
+</main>
+
+</br>
+
+<!--Handiling change events-->
+
+<label for="intt">Massage:</label>
+
+<input type="text" id="intt" placeholder="Enter Your text">
+<button id="btt"> Submit </button>
+<p id="opt"></p>
+
+<!--Handiling Input Events -->
+
+
+
+<input type="text" name="" id="intu">
+<p id="output"></p>
+
+
+
+
+
+   
+
+
+
+    
+
+   
+
+    <script src="radio.js"></script>
+
+    
+    
+</body>
+</html>

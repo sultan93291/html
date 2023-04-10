@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+
+}
+
+section header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+} 
+
+
+
+
+
+
+ section header p{
+    left: 40px;
+    top:25px;
+    position: absolute;
+    font-size: 40px;
+    color:aqua;
+    font-weight: bolder;
+    transition: 1s;
+    
+}
+
+section header p:hover {
+  
+    color: yellow;
+    transform: rotate(360deg);
+    
+}
+
+section header .span {
+    position: absolute;
+    top: 120px;
+    bottom: 0px;
+    left: 35px;
+    right: 0px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+ 
+
+
+
+section header .src{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    border: 2px solid aqua;
+    background-color: transparent;
+    
+   
+    
+    
+}
+
+section header .src .search {
+    padding: 10px;
+    border: 2px solid aqua;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border-left: 15px;
+}
+
+section header .src i {
+    padding: 5px;
+    left: 5px;
+    color:aqua;
+    cursor: pointer;
+   
+}
+
+
+section .navbar {
+    height: 350px;
+    width: 50px;
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+section .navbar .icons{
+    position: relative;
+    left: 18px;
+    top: 10px;
+    bottom: 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+section .navbar .icons ul {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+} 
+
+section .navbar .icons ul li  {
+   
+list-style: none;
+position: relative;
+justify-content: center;
+right: 0px;
+left: 0px;
+
+}
+
+section .navbar .icons ul li a {
+    text-decoration: none;
+    position: relative;
+}
+
+section .navbar .icons ul li a i {
+    position: relative;
+    margin-top: 25px;
+    animation: 1s ease;
+    color: black;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+section .navbar .icons ul li a i:hover{
+    color: blue;
+    transform:rotateX('360deg');
+}
+
+
+
+section .footer{
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+  
+}
+
+section .footer  {
+    text-align: center;
+    font-size: 35px;
+    line-height: 100px;
+    font-weight: bolder;
+    color:aqua;
+}
+
+
+
+
+    
+
+section .main {
+    height: 650px;
+    width: 1650px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+section .main .image {
+    position: relative;
+    top: 25px;
+    left: 0px;
+ 
+        
+}
+
+section .main .image ul {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
+
+section .main .image ul li {
+    list-style: none;
+    
+    
+}
+
+section .main .image ul li img {
+
+    height: 180px;
+    width: 350px;
+   
+    
+}
+
+
+ 

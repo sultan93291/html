@@ -10,11 +10,12 @@
 
 .a11{
 	text-align: center;
-	padding: !important;
+	padding: important;
 	margin: 5px;
 	margin-block: auto ;
 	color: black;
 }
+
 
 .a12{
 	font-size: 40px;
