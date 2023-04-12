@@ -164,3 +164,86 @@ function startInterval() {
 function stopInterval() {
   clearInterval(intervaltimeout);
 }
+
+// js cookies
+
+function setCookie(cname, cvalue, cexpire) {
+  const d = new Date();
+
+  d.setTime(d.getDate() + cexpire * 24 * 60 * 60 * 1000);
+
+  let expires = 'expires=' + d.toUTCString();
+
+  document.cookie = cname + '=' + cvalue + ';' + 'expires' + ';path=/';
+}
+
+function setUser(uname, uvalue, uexpire) {
+  const d = new Date();
+
+  d.setTime(d.getDate() + uexpire * 24 * 60 * 60 * 1000);
+
+  let expires = 'expires=' + d.toUTCString();
+
+  document.cookie = uname + '=' + uvalue + ';' + 'expires' + ';path=/';
+}
+
+function getCookie(cname) {
+  let name = cname + '=';
+  let ca = document.cookie.split(';');
+
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+
+    while (c.charAt(0) === ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) === 0) {
+      return c.substring(name.length);
+    }
+  }
+
+  return ' ';
+}
+
+function getUsercookie(uname) {
+  let name = uname + '=';
+  let ca = document.cookie.split(';');
+
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+
+    while (c.charAt(0) === ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) === 0) {
+      return c.substring(name.length);
+    }
+  }
+
+  return ' ';
+}
+
+/*
+function checkCookie(cname, exdays) {
+  let a = getCookie(cname);
+  if (a != '') {
+    alert(`welcoem agian ${a}`);
+  } else {
+    name = prompt('Enter your name :', '');
+    if (name != '' && name != null) {
+      setCookie(cname, name, exdays);
+    }
+  }
+} */
+
+function checkCookie() {
+  let username = getCookie('username');
+  if (username != '') {
+    alert('Welcome Again' + username);
+  } else {
+    username = prompt(' Enter Your Age :', '');
+    if (username != '' && age != null) {
+      setCookie('username', username, 365);
+    }
+  }
+}
