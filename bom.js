@@ -60,3 +60,107 @@ function goForward() {
 function goBackward() {
   window.history.back();
 }
+
+// show windows . nagivator dollars object
+
+let appName = document.getElementById('appName');
+
+let appCodeName = document.getElementById('appCodeName');
+
+let appVersion = document.getElementById('appVersion');
+
+let platform = document.getElementById('platform');
+
+let cookieEnabled = document.getElementById('cookieEnabled');
+
+let userAgent = document.getElementById('userAgent');
+
+let onLine = document.getElementById('onLine');
+
+let javaEnabled = document.getElementById('javaEnabled');
+
+appName.innerHTML = `nagivator app name : ${navigator.appName}`;
+
+appCodeName.innerHTML = `nagivator app code name : ${navigator.appCodeName}`;
+
+appVersion.innerHTML = `nagivator app version ${navigator.appVersion}`;
+
+platform.innerHTML = `nagivator platform ${navigator.platform} `;
+
+cookieEnabled.innerHTML = `nagiavtor  cookie enabled ${navigator.cookieEnabled}`;
+
+userAgent.innerHTML = `nagivator useragent ${navigator.userAgent}`;
+
+onLine.innerHTML = ` nagivator is online ${navigator.onLine} `;
+
+javaEnabled.innerHTML = `nagivator is java enabled ${navigator.javaEnabled()}`;
+
+// js pop up alert box
+
+let Prompt = document.getElementById('Prompt');
+
+let Confirm = document.getElementById('Confirm');
+
+function showAlert() {
+  alert('you clicked the alert button ');
+}
+
+function showConfirm() {
+  let txt;
+
+  if (window.confirm('press a button ')) {
+    txt = 'you press okay  ';
+  } else {
+    txt = ' You cancel the confirm prompt  ';
+  }
+
+  Confirm.innerHTML = txt;
+}
+
+function showPrompt() {
+  let person = window.prompt(`enter your name `, ` sultan `);
+
+  let txt;
+
+  if (person === null || person === '') {
+    txt = 'You declined to Enter your name ';
+  } else {
+    txt = ` hello ${person} . How are you today  `;
+  }
+
+  Prompt.innerHTML = txt;
+}
+
+// js timing event
+
+// timeout function
+
+let timeout = document.getElementById('timeout');
+
+let interval = document.getElementById('interval');
+
+let sti;
+
+function startTimeout() {
+  sti = setTimeout(() => {
+    timeout.innerHTML = `3 s gone `;
+  }, 3000);
+}
+
+function stopTimeout() {
+  clearTimeout(sti);
+}
+
+// interval function
+
+let intervaltimeout;
+
+function startInterval() {
+  intervaltimeout = setInterval(() => {
+    interval.innerHTML = new Date().toLocaleTimeString();
+  }, 1000);
+}
+
+function stopInterval() {
+  clearInterval(intervaltimeout);
+}
